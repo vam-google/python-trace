@@ -4,6 +4,22 @@
 
 [1]: https://pypi.org/project/google-cloud-trace/#history
 
+## [1.0.0](https://www.github.com/googleapis/python-trace/compare/v0.23.0...v1.0.0) (2020-03-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **trace:** remove `span_path` resource helper method from v2; modify retry configs; standardize usage of 'optional' and 'required' for args in docstrings; add 2.7 deprecation warning (via synth)  (#10075)
+
+### Features
+
+* **trace:** add `client_options` to constructor ([#9154](https://www.github.com/googleapis/python-trace/issues/9154)) ([a5b4f7a](https://www.github.com/googleapis/python-trace/commit/a5b4f7aa4575364868ba80aa0a3b1289dc7f0c3e))
+
+
+### Bug Fixes
+
+* **trace:** remove `span_path` resource helper method from v2; modify retry configs; standardize usage of 'optional' and 'required' for args in docstrings; add 2.7 deprecation warning (via synth)  ([#10075](https://www.github.com/googleapis/python-trace/issues/10075)) ([4c02194](https://www.github.com/googleapis/python-trace/commit/4c02194a8c1390b2a382e1f3aaef8138baf02f07))
+
 ## 0.23.0
 
 10-15-2019 06:59 PDT
